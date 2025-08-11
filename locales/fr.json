@@ -24,6 +24,9 @@
         "Rédaction de guidelines spécifiques aux assistants IA (Cursor, etc.)"
       ]
     },
+    "roadmap": {
+      "cta": "Voir ma progression sur roadmap.sh"
+    },
     "designSystems": {
       "title": "Design Systems",
       "items": [

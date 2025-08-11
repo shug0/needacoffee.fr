@@ -24,6 +24,9 @@
         "Writing guidelines specific to AI assistants (Cursor, etc.)"
       ]
     },
+    "roadmap": {
+      "cta": "View my roadmap.sh progress"
+    },
     "designSystems": {
       "title": "Design Systems",
       "items": [

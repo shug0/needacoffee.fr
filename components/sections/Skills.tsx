@@ -1,33 +1,35 @@
-import { useTranslation } from '../../lib/i18n-app';
-import { Section } from '../ui/Section';
-import { SectionTitle, CardTitle } from '../ui/Typography';
-import { Card } from '../ui/Card';
-import { Zap, Target, Rocket } from 'lucide-react';
+import { useTranslation } from "../../lib/i18n-app";
+import { Section } from "../ui/Section";
+import { SectionTitle, CardTitle } from "../ui/Typography";
+import { Button } from "../ui/Button";
+import { Card } from "../ui/Card";
+import { Zap, Target, Rocket, ListCheck } from "lucide-react";
 
 export function Skills() {
   const { t, tArray } = useTranslation();
 
   const skills = [
     {
-      title: t('skills.leadership.title'),
-      items: tArray('skills.leadership.items'),
+      title: t("skills.leadership.title"),
+      items: tArray("skills.leadership.items"),
       icon: Zap,
     },
     {
-      title: t('skills.designSystems.title'),
-      items: tArray('skills.designSystems.items'),
+      title: t("skills.designSystems.title"),
+      items: tArray("skills.designSystems.items"),
       icon: Target,
     },
     {
-      title: t('skills.performance.title'),
-      items: tArray('skills.performance.items'),
+      title: t("skills.performance.title"),
+      items: tArray("skills.performance.items"),
       icon: Rocket,
     },
   ];
 
   return (
     <Section aria-labelledby="skills-title">
-      <SectionTitle id="skills-title">{t('skills.title')}</SectionTitle>
+      <SectionTitle id="skills-title">{t("skills.title")}</SectionTitle>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {skills.map((skill) => {
           const IconComponent = skill.icon;
@@ -50,6 +52,19 @@ export function Skills() {
             </Card>
           );
         })}
+      </div>
+      <div className="flex justify-end">
+        <Button
+          href="https://roadmap.sh/frontend?s=6899cdb4614598977eaa6104"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="outline"
+          size="sm"
+          className="gap-2"
+        >
+          <ListCheck className="w-4 h-4" />
+          {t("skills.roadmap.cta")}
+        </Button>
       </div>
     </Section>
   );
