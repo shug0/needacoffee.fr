@@ -50,3 +50,6 @@ MIT — see `LICENSE`.
 ### Lighthouse
 
 <img src="public/readme/lighthouse-100.png" alt="Scores Lighthouse 100/100 sur toutes les catégories" width="680" />
+
+### Learning / Roadmap
+- Frontend Developer progress on roadmap.sh: [View my progress](https://roadmap.sh/frontend?s=6899cdb4614598977eaa6104)
