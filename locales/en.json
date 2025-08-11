@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Thomas Alberola - Senior Frontend React Developer | 8+ years experience",
+    "description": "Senior Frontend React Developer with over 8 years of experience in fintech, SaaS B2B, digital consulting and content creator tools.",
+    "keywords": "senior frontend developer, React, TypeScript, Vue.js, design systems, web performance, fintech, SaaS, Bordeaux"
+  },
+  "hero": {
+    "name": "Thomas Alberola",
+    "title": "Senior Frontend React Developer",
+    "subtitle": "As a Senior Frontend React Developer, I help companies build performant, scalable and user experience-oriented web applications."
+  },
+  "presentation": {
+    "title": "Presentation",
+    "description": "For over 8 years, I have evolved in various contexts: fintech, SaaS B2B, digital consulting, and content creator tools. My specialty: building robust, efficient frontend architectures adapted to business challenges."
+  },
+  "skills": {
+    "title": "Key skills",
+    "leadership": {
+      "title": "Leadership",
+      "items": [
+        "Frontend architecture migration management",
+        "Team member mentoring (code reviews, pair programming)",
+        "Development and application of frontend best practices",
+        "Writing guidelines specific to AI assistants (Cursor, etc.)"
+      ]
+    },
+    "designSystems": {
+      "title": "Design Systems",
+      "items": [
+        "Design of shared and reusable component libraries",
+        "Fine management of design tokens (themes, typography, colors)",
+        "Integration of modern UI kits (Shadcn UI, Style Dictionary)"
+      ]
+    },
+    "performance": {
+      "title": "DX & Performance",
+      "items": [
+        "Loading optimization (code splitting, lazy loading)",
+        "Advanced cache and query management (React Query, Vue Query)",
+        "Design of modular frontend architectures (Turborepo)",
+        "Implementation of robust end-to-end tests (Cypress, Playwright)",
+        "Continuous improvement of developer experience (tooling, CI/CD)"
+      ]
+    }
+  },
+  "domains": {
+    "title": "Areas of intervention",
+    "items": [
+      "Frontend Architecture: modular structures, monorepo, scalable organization",
+      "Design Systems: design tokens, shared libraries, theming",
+      "Performance & Optimization: lazy loading, profiling, cache management",
+      "User Experience: typed forms, accessibility, E2E tests",
+      "Real-time & APIs: WebSockets (Socket.io), Supabase, Firebase, REST APIs",
+      "Automation & AI: CI/CD, AI assistant integration, augmented dev tools",
+      "Consulting & Best Practices: code audit, documentation, mentoring, architecture"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "pause": {
+      "title": "Professional break — Japan trip",
+      "period": "March 2025 – June 2025",
+      "items": [
+        "Personal travel & cultural exploration in Japan",
+        "Logistics planning and preparation of remote side-projects"
+      ]
+    },
+    "tudigo": {
+      "title": "Tudigo — Senior Frontend Developer",
+      "period": "Full-time · Hybrid (Bordeaux) — Feb. 2024 – Feb. 2025",
+      "items": [
+        "Tech lead on a modern React application (TypeScript, Zustand, Tailwind)",
+        "Creation of robust forms with React Hook Form & Zod",
+        "Integration and structuring of design system via Shadcn UI",
+        "Development of complex views and business features",
+        "Management of updates, migrations and code reviews"
+      ]
+    },
+    "jellysmack": {
+      "title": "Jellysmack — Frontend Developer > Senior Frontend Developer",
+      "period": "Full-time · Remote — Aug. 2021 – May 2024",
+      "items": [
+        "Vue.js development on content creator-oriented products",
+        "Multi-squad collaboration, media API integration, animations & UI",
+        "React application design (videos, ads, marketing)",
+        "Initiator of the global Vue to React migration at company scale",
+        "Adoption of React Query for efficient client-side cache management",
+        "Implementation of a design system in the form of a Tailwind plugin",
+        "Monorepo architecture with Turborepo",
+        "Targeted tests (Cypress), code review, mentoring, technical choices"
+      ]
+    },
+    "yousign": {
+      "title": "Yousign — Front-End Developer",
+      "period": "Full-time · Remote — July 2019 – Aug. 2021",
+      "items": [
+        "Feature development for electronic signature application",
+        "Dynamic interface, Jest / Testing Library / Cypress tests",
+        "Frontend optimizations (rendering, lazy loading)"
+      ]
+    },
+    "ekino": {
+      "title": "Ekino — Junior Front-End Developer",
+      "period": "Full-time · Bordeaux — Sept. 2016 – July 2019",
+      "items": [
+        "AngularJS, Angular 2+, React interface design",
+        "Hybrid mobile app creation (Cordova, Ionic, React Native)",
+        "Responsive UI, unit tests (Jasmine, Karma, Jest)"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Current personal projects",
+    "instantane": {
+      "title": "Instantané Impro",
+      "url": "https://instantane-impro-app.vercel.app",
+      "description": "Application dedicated to an improvisation show: the audience can upload photos at the beginning of the performance, which are then projected as stage background to inspire the actors. Supabase backend, admin interface, live upload management."
+    },
+    "orguin": {
+      "title": "Orguin – Who does what?",
+      "url": "https://orguin.com",
+      "description": "Web platform for event management for associations, troupes or small structures. Allows centralizing project management, roles and registrations with public and private pages. Uses Supabase, React and permission logic."
+    },
+    "pnj": {
+      "title": "NPC Generator",
+      "url": "https://pnj.jdr.coffee",
+      "description": "Tool for creating non-player characters for role-playing games. Name, appearance, traits and backstory generation through AI integration. Used to enrich improvised or prepared RPG sessions."
+    },
+    "combien": {
+      "title": "How much does it cost?",
+      "url": "https://combien.jdr.coffee",
+      "description": "Database of over 300 medieval-fantasy inspired objects. Allows searching by category, rarity or usage. Data maintained via Notion proxy. Designed as a minimalist and fast GM tool."
+    },
+    "discord": {
+      "title": "Discord Bots",
+      "url": "https://github.com/shug0",
+      "description": "Collection of Discord automation bots: role management tools, community mini-games, animation and moderation tools. Deployed on servers with over 8000 users. Uses Node.js, Supabase, Socket.io and Discord.js."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "estei": {
+      "title": "ESTEI Bordeaux — Master Web Project Manager",
+      "period": "2014 – 2016",
+      "description": "Frontend development, project management, UX, digital production tools."
+    },
+    "iut": {
+      "title": "IUT Michel de Montaigne — DUT SRC",
+      "period": "2012 – 2014",
+      "description": "Digital communication, web development, audiovisual & multimedia."
+    },
+    "cap": {
+      "title": "CAP & BEP Graphic Design",
+      "period": "2010 – 2012",
+      "description": "Craftsmanship of Graphic Communication Arts, design, advertising, marketing."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Open to new stimulating missions and projects.",
+    "email": "contact@needacoffee.fr",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "downloads": {
+    "title": "Downloads",
+    "description": "Find my professional documents in PDF format for easy sharing and archiving.",
+    "download": "Download",
+    "cv": {
+      "title": "Complete CV",
+      "description": "Complete version of my CV with all personal and professional information.",
+      "type": "Complete CV"
+    },
+    "anonymous": {
+      "title": "Anonymous skills portfolio",
+      "description": "Anonymized version of my profile for confidential recruitment processes.",
+      "type": "Anonymized version"
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Go to main content"
+  }
+}
