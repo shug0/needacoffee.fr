@@ -40,6 +40,7 @@
       "items": [
         "Loading optimization (code splitting, lazy loading)",
         "Advanced cache and query management (React Query, Vue Query)",
+        "GraphQL client and cache management with Apollo GraphQL",
         "Design of modular frontend architectures (Turborepo)",
         "Implementation of robust end-to-end tests (Cypress, Playwright)",
         "Continuous improvement of developer experience (tooling, CI/CD)"
@@ -88,6 +89,7 @@
         "React application design (videos, ads, marketing)",
         "Initiator of the global Vue to React migration at company scale",
         "Adoption of React Query for efficient client-side cache management",
+        "Apollo GraphQL integration (client, cache policies, normalized store)",
         "Implementation of a design system in the form of a Tailwind plugin",
         "Monorepo architecture with Turborepo",
         "Targeted tests (Cypress), code review, mentoring, technical choices"
